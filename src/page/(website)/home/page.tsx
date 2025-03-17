@@ -1,14 +1,14 @@
 import React from "react";
-import Support from "../../../components/Support";
+import Banner from "../../../components/website/Banner";
 import NewsHome from "./components/News";
 import ShopHome from "./components/Shop";
 import Blog from "./components/Blog";
-import Banner from "../../../components/Banner";
+import Support from "../../../components/website/Support";
 
 const HomePage = () => {
   return (
     <div>
-      <Banner/>
+      <Banner />
       <main className="w-[1280px] mx-auto mt-11">
         <NewsHome />
         <ShopHome />
